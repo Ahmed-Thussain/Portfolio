@@ -32,8 +32,8 @@ export const projects: Project[] = [
     status: "Production",
   },
   {
-    slug: "clickly",
-    name: "Clickly",
+    slug: "clikly",
+    name: "Clikly",
     category: "Cloud Storage SaaS Platform",
     description:
       "Cloud storage platform for file and folder management, including a desktop helper application distributed as an MSI installer.",
@@ -41,6 +41,7 @@ export const projects: Project[] = [
     contribution:
       "Built from the ground up — platform, cloud storage functionality, frontend/backend, and the desktop upload workflow.",
     status: "Production",
+    url: "https://clikly.com",
   },
   {
     slug: "mizan",
@@ -85,6 +86,7 @@ export const projects: Project[] = [
     contribution:
       "Built from the ground up — platform development and feature implementation.",
     status: "Production",
+    url: "https://ibi-institutes.com",
   },
   {
     slug: "rakeb",
@@ -108,6 +110,7 @@ export const projects: Project[] = [
     contribution:
       "Built from the ground up — both the PHP main site and the Next.js portfolio landing page.",
     status: "Production",
+    url: "https://lawyertech.sa",
   },
   {
     slug: "abicerp",
