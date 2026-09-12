@@ -16,5 +16,4 @@ class MockIntersectionObserver implements IntersectionObserver {
   }
 }
 
-// @ts-expect-error - test-environment polyfill, not a spec-complete implementation
 globalThis.IntersectionObserver = MockIntersectionObserver;

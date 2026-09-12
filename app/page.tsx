@@ -1,7 +1,13 @@
+import { Hero } from "@/components/Hero";
+import { PathSection } from "@/components/PathSection";
+import { Contact } from "@/components/Contact";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-gray-400">Portfolio scaffold OK.</p>
+    <main>
+      <Hero />
+      <PathSection />
+      <Contact />
     </main>
   );
 }
