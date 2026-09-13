@@ -13,27 +13,8 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "fast-pos",
-    name: "Fast POS & License Manager",
-    category: "POS Application · Web / Android · Offline & Online",
-    description:
-      "POS and business management application supporting offline and online operations, Android and web platforms, and software license management.",
-    tech: [
-      "React.js",
-      "TypeScript",
-      "Vite",
-      "Tailwind CSS",
-      "Capacitor",
-      "React Native",
-      "Node.js",
-    ],
-    contribution:
-      "Built from the ground up — POS functionality, business workflows, frontend features, mobile support, and license management.",
-    status: "Production",
-  },
-  {
-    slug: "clikly",
-    name: "Clikly",
+    slug: "clikle",
+    name: "Clikle",
     category: "Cloud Storage SaaS Platform",
     description:
       "Cloud storage platform for file and folder management, including a desktop helper application distributed as an MSI installer.",
@@ -41,7 +22,7 @@ export const projects: Project[] = [
     contribution:
       "Built from the ground up — platform, cloud storage functionality, frontend/backend, and the desktop upload workflow.",
     status: "Production",
-    url: "https://clikly.com",
+    url: "https://clikle.com",
   },
   {
     slug: "mizan",
@@ -123,6 +104,25 @@ export const projects: Project[] = [
       "Enhanced an existing platform — implemented new modules and client-requested features.",
     status: "Production",
     url: "https://abicerp.com",
+  },
+  {
+    slug: "fast-pos",
+    name: "Fast POS & License Manager",
+    category: "POS Application · Web / Android · Offline & Online",
+    description:
+      "POS and business management application supporting offline and online operations, Android and web platforms, and software license management.",
+    tech: [
+      "React.js",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Capacitor",
+      "React Native",
+      "Node.js",
+    ],
+    contribution:
+      "Built from the ground up — POS functionality, business workflows, frontend features, mobile support, and license management.",
+    status: "Production",
   },
   {
     slug: "xcrp",
