@@ -4,11 +4,11 @@ export function Hero() {
   return (
     <section className="flex min-h-screen flex-col items-center justify-center gap-6 px-6 text-center">
       <Image
-        src="/avatar-placeholder.svg"
+        src="/profile-photo.png"
         alt="Ahmed Tarek"
         width={200}
         height={200}
-        className="rounded-full border-2 border-accent/40"
+        className="h-[200px] w-[200px] rounded-full border-2 border-accent/40 object-cover"
         priority
       />
       <h1 className="text-4xl font-bold text-white sm:text-5xl">

@@ -37,7 +37,7 @@ export const projects: Project[] = [
     category: "Cloud Storage SaaS Platform",
     description:
       "Cloud storage platform for file and folder management, including a desktop helper application distributed as an MSI installer.",
-    tech: ["PHP", "MariaDB/MySQL", "JavaScript", "C#/.NET", "WiX"],
+    tech: ["PHP", "MariaDB/MySQL", "JavaScript", "C#/.NET"],
     contribution:
       "Built from the ground up — platform, cloud storage functionality, frontend/backend, and the desktop upload workflow.",
     status: "Production",

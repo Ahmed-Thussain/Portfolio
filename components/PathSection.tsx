@@ -35,11 +35,20 @@ export function PathSection() {
         fill="none"
         aria-hidden="true"
       >
-        <path d={d} stroke="#22D3EE33" strokeWidth={2} fill="none" />
+        <path
+          d={d}
+          stroke="#22D3EE33"
+          strokeWidth={4}
+          strokeLinecap="round"
+          strokeDasharray="0.1 16"
+          fill="none"
+        />
         <motion.path
           d={d}
           stroke="#22D3EE"
-          strokeWidth={3}
+          strokeWidth={4}
+          strokeLinecap="round"
+          strokeDasharray="0.1 16"
           fill="none"
           style={{ pathLength }}
         />
@@ -47,7 +56,7 @@ export function PathSection() {
 
       {/* Mobile: straight vertical line */}
       <div
-        className="pointer-events-none absolute left-6 top-0 w-0.5 bg-accent/30 md:hidden"
+        className="pointer-events-none absolute left-6 top-0 w-0.5 border-l-2 border-dotted border-accent/30 md:hidden"
         style={{ height: totalHeight }}
         aria-hidden="true"
       />
