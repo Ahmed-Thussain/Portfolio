@@ -127,10 +127,10 @@ export const projects: Project[] = [
   {
     slug: "xcrp",
     name: "XCRP",
-    category: "Next-Generation CRM/ERP Platform",
+    category: "Next-Generation AI Business CRM/ERP Platform",
     description:
-      "Custom CRM/ERP platform under active development, architected around and integrating open-source foundations (Frappe/ERPNext, Twenty CRM) with custom modules.",
-    tech: ["Frappe/ERPNext", "Python"],
+      "Custom CRM/ERP platform under active development, architected around and integrating foundations (ERP, CRM) with custom modules.",
+    tech: ["Javascript", "Python"],
     contribution:
       "Built from the ground up — platform architecture and integration work.",
     status: "In Development",
